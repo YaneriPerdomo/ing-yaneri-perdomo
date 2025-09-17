@@ -8,7 +8,7 @@ const props = defineProps({
 
 let getThumbnailSrc = (folder, filename) => {
   // `getSrcImg` se cambió a `getThumbnailSrc`
-  return "../img/" + folder + "/" + filename;
+  return "/src/assets/img/" + folder + "/" + filename;
 };
 
 const selectMainImage = (event) => {
