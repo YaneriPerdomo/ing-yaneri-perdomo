@@ -1,29 +1,4 @@
-# yaneri-perdomo-dev
+# Hola, soy Yaneri Perdomo, Ingeniera de Sistemas y Desarrolladora Web.
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es mi portafolio, un reflejo de mi pasión por el desarrollo web. Aquí, comparto una selección de mis proyectos más representativos, desde aplicaciones front-end interactivas hasta complejas APIs back-end. Mi objetivo es mostrar mi capacidad para transformar ideas en productos digitales tangibles, combinando un diseño de interfaz de usuario cuidado con una arquitectura de código robusta y eficiente.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
