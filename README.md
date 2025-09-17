@@ -1,4 +1,3 @@
 # Hola, soy Yaneri Perdomo, Ingeniera de Sistemas y Desarrolladora Web.
 
-Este es mi portafolio, un reflejo de mi pasión por el desarrollo web. Aquí, comparto una selección de mis proyectos más representativos, desde aplicaciones front-end interactivas hasta complejas APIs back-end. Mi objetivo es mostrar mi capacidad para transformar ideas en productos digitales tangibles, combinando un diseño de interfaz de usuario cuidado con una arquitectura de código robusta y eficiente.
-
+ Mi perfil profesional se enfoca en el desarrollo de Aplicaciones Web Completas (Full-Stack). Poseo un sólido dominio de tecnologías front-end como HTML5, CSS, Bootstrap, y JavaScript(ES6). En el back-end, mi experiencia se centra en la construcción de sistemas robustos y escalables con PHP, el framework Laravel y bases de datos relacionales como MySQL. Actualmente, estoy fortaleciendo mis habilidades con Vue.js 3 para diseñar interfaces de usuario dinámicas y modernas. Complemento mis conocimientos con experiencia en soporte técnico de software y hardware, lo que me permite ofrecer soluciones integrales. 

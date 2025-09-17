@@ -16,13 +16,13 @@ const PROJECTS = [
       "MySQL",
       "AJAX",
     ],
-    img: "./public/img/StockYp/welcome.PNG",
+    img: "./img/StockYp/welcome.PNG",
     url: "proyectos/stock-yp",
   },
   /**{
     title: "Aplicación web para consultar el valor del dólar en Venezuela en tiempo real",
     technologiesUsed: ["HTML5", "JavaScript(ES6)", "CSS", "Bootstrap", "Laravel", "AJAX"],
-    img: "/public/img/tasa-del-dia/main.PNG",
+    img: "/img/tasa-del-dia/main.PNG",
     url: "proyectos/tasa-del-dia",
   } */
   {
@@ -37,7 +37,7 @@ const PROJECTS = [
       "MVC",
       "AJAX",
     ],
-    img: "/public/img/calidad-financiera/admin.png",
+    img: "/img/calidad-financiera/admin.png",
     url: "proyectos/calidad-financiera",
   },
   {
@@ -51,7 +51,7 @@ const PROJECTS = [
       "MySQL",
       "AJAX",
     ],
-    img: "./public/img/sonidos-del-habla/index.JPG",
+    img: "./img/sonidos-del-habla/index.JPG",
     url: "proyectos/sonidos-del-habla",
   },
   {
@@ -65,19 +65,19 @@ const PROJECTS = [
       "MySQL",
       "AJAX",
     ],
-    img: "./public/img/space-n/read.JPG",
+    img: "./img/space-n/read.JPG",
     url: "proyectos/espacio-n",
   },
   {
     title:
       " Aplicación web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
     technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
-    img: "./public/img/tu-puedes/create-account.JPG",
+    img: "./img/tu-puedes/create-account.JPG",
     url: "proyectos/tu-puedes",
   },
   {
     title: " Asistente Virtual para la Universidad Dr. José Gregorio Hernández ",
-    img: "public/img/chat-bot/chat-bot02.JPG",
+    img: "img/chat-bot/chat-bot02.JPG",
     technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
     url: "proyectos/gregorin",
   },
@@ -119,7 +119,7 @@ const PROJECTS = [
   padding: 0.2rem;
 }
 
-main{
+main {
   height: auto !important;
-} 
+}
 </style>

@@ -8,7 +8,7 @@ const props = defineProps({
 
 let getThumbnailSrc = (folder, filename) => {
   // `getSrcImg` se cambió a `getThumbnailSrc`
-  return "../public/img/" + folder + "/" + filename;
+  return "../img/" + folder + "/" + filename;
 };
 
 const selectMainImage = (event) => {
@@ -36,9 +36,7 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
       </div>
     </div>
     <i
-      ><b class="project__type"
-        >Proyecto {{ props.projectData.meta.type_project }}</b
-      ></i
+      ><b class="project__type">Proyecto {{ props.projectData.meta.type_project }}</b></i
     >
     <h1 class="project__title">
       {{ props.projectData.title }}
@@ -116,7 +114,7 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-      }
+}
 .project__back-button {
   color: grey !important;
   background: none;
@@ -132,9 +130,9 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
   color: var(--color-azul-claro);
 }
 
-.project__gallery{
+.project__gallery {
   display: flex;
-   
+
   gap: 0.3rem;
   margin-top: 0.4rem;
 }
