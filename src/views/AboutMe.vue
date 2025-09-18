@@ -50,7 +50,7 @@ const array = {
           ><button class="button__black">DESCARGAR CV</button>
         </a>
       </div>
-   
+      <br />
       <small class="content__note">
         👩‍💻 Este portafolio fue creado con <span>Vue.js 3</span> 💚
       </small>
@@ -61,15 +61,15 @@ const array = {
 <style scoped>
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-.content__note{
-    text-decoration: underline;
+.content__note {
+  text-decoration: underline;
   color: var(--color-azul-claro);
 }
 
-.content__note > span{
+.content__note > span {
   color: var(--color-verde);
   font-weight: bold;
-  filter: drop-shadow(1px 0px 0px rgb(47,47,47) );
+  filter: drop-shadow(1px 0px 0px rgb(47, 47, 47));
 }
 
 p {
