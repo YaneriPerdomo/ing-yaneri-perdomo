@@ -69,7 +69,7 @@ const TOTAL_INFORMATION_PROJECTS = {
       file: "calidad-financiera",
       thumbnails: [
         {
-          src: "createAccount.png",
+          src: "createAccount.PNG",
           alt: "Presentacion",
         },
         {
@@ -77,15 +77,15 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Diagrama de casos de uso",
         },
         {
-          src: "admin.png",
+          src: "admin.PNG",
           alt: "Indicador",
         },
         {
-          src: "transaccion.png",
+          src: "transaccion.PNG",
           alt: "Panel de control",
         },
         {
-          src: "profile.png",
+          src: "profile.PNG",
           alt: "Indicadores",
         },
       ],
@@ -262,11 +262,11 @@ const TOTAL_INFORMATION_PROJECTS = {
       file: "StockYp",
       thumbnails: [
         {
-          src: "welcome.png",
+          src: "welcome.PNG",
           alt: "Aplicacion web",
         },
         {
-          src: "factura.png",
+          src: "factura.PNG",
           alt: "Proyecto a nivel de codigo",
         },
         {
@@ -274,11 +274,11 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Dispositivo movil",
         },
         {
-          src: "information.png",
+          src: "information.PNG",
           alt: "Diagrama de flujo",
         },
         {
-          src: "Diagrama de casos de uso.png",
+          src: "Diagrama de casos de uso.PNG",
           alt: "Diagrama de casos de uso",
         },
       ],
