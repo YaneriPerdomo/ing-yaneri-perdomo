@@ -278,7 +278,7 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Diagrama de flujo",
         },
         {
-          src: "Diagrama de casos de uso.PNG",
+          src: "Diagrama.PNG",
           alt: "Diagrama de casos de uso",
         },
       ],
