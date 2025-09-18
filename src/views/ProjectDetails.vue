@@ -278,11 +278,11 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Diagrama de flujo",
         },
         {
-          src: "Presentacion-(1).png",
+          src: "Diagrama de casos de uso.PNG",
           alt: "Diagrama de casos de uso",
         },
       ],
-      main: "Presentacion-(1).png",
+      main: "main.png",
     },
     content: {
       objective: `Desarrollar una aplicacion web para el control de ventas e inventarios.`,

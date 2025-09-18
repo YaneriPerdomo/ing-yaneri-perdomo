@@ -111,6 +111,9 @@ p {
 
 @media (max-width: 768px) {
 
+  .content__card-group{
+      justify-content: center;
+  }
   .row {
 
     display: flex;
