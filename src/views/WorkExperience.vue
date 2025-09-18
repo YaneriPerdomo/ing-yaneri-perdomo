@@ -12,8 +12,7 @@ const WORK_EXPERIENCE = {
     ],
   },
   secondPlace: {
-    title:
-      " Pasantías en la Universidad Dr. José Gregorio Hernández (2024 - 2024) ",
+    title: " Pasantías en la Universidad Dr. José Gregorio Hernández (2024 - 2024) ",
     functions: [
       " Recopilación de datos de inventario de equipos informáticos como computadoras y periféricos. ",
       " Soporte técnico informático a nivel de software (formateo de sistema operativo Windows, configuración básica de BIOS, instalación de programas). ",
@@ -36,7 +35,7 @@ const WORK_EXPERIENCE = {
 <template>
   <Layout>
     <div class="content m-1">
-      <h1 class="content__title m-1">Experiencia laboral:</h1>
+      <h1 class="content__title m-1">Experiencia laboral</h1>
       <section class="content__section content__section--formal-education">
         <List :data="WORK_EXPERIENCE" type="Multiple List"></List>
       </section>

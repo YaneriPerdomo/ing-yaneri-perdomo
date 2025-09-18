@@ -1,7 +1,7 @@
 <script setup>
 import Layout from "@/components/Layout.vue";
 import List from "@/components/List.vue";
- 
+
 //Array de objetos - La clave de un objeto debe ser unico [objet, object] {{claveUnico: valor}, ClaveUnico:valor}
 const TRAINING = [
   {
@@ -58,7 +58,7 @@ const TRAINING = [
 <template>
   <Layout>
     <div class="content m-1">
-      <h1 class="content__title m-1">Educación:</h1>
+      <h1 class="content__title m-1">Educación</h1>
       <List :data="TRAINING" type="Multiple list within multiple list"></List>
     </div>
   </Layout>

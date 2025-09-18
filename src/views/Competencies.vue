@@ -19,7 +19,7 @@ const SOFT_SKILLS = {
 <template>
   <Layout>
     <div class="content m-1">
-      <h1 class="content__title m-1">Competencias:</h1>
+      <h1 class="content__title m-1">Competencias</h1>
 
       <section class="content__section content__section--competence">
         <List :data="SOFT_SKILLS" type="Multiple List"></List>
