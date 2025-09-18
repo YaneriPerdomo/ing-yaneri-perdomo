@@ -282,7 +282,7 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Diagrama de casos de uso",
         },
       ],
-      main: "main.png",
+      main: "main.PNG",
     },
     content: {
       objective: `Desarrollar una aplicacion web para el control de ventas e inventarios.`,

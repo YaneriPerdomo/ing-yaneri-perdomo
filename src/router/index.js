@@ -23,7 +23,7 @@ const router = createRouter({
       name: '/acerca-de-mi',
       component: AboutMe,
       meta: {
-        title: "Acerca de mí"
+        title: "Acerca de Mí"
       }
     },
     {
