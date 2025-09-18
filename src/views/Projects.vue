@@ -78,7 +78,15 @@ const PROJECTS = [
   {
     title: " Asistente Virtual para la Universidad Dr. José Gregorio Hernández ",
     img: "img/chat-bot/chat-bot02.JPG",
-    technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
+    technologiesUsed: [
+      "HTML5",
+      "CSS",
+      "JavaScript(ES6)",
+      "Bootstrap",
+      "AJAX",
+      "PHP",
+      "MySQL",
+    ],
     url: "proyectos/gregorin",
   },
 ];
