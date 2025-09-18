@@ -15,7 +15,7 @@ const router = createRouter({
       name: "/",
       component: AboutMe,
       meta: {
-        title: "Acerca de mí"
+        title: "Yaneri Perdomo | Acerca de mí"
       }
     },
     {
@@ -23,34 +23,34 @@ const router = createRouter({
       name: '/acerca-de-mi',
       component: AboutMe,
       meta: {
-        title: "Acerca de Mí"
+        title: "Yaneri Perdomo | Acerca de Mí"
       }
     },
     {
       path: '/competencias',
       name: '/competencias',
       component: Competencies,
-      meta: { title: "Competencias" }
+      meta: { title: "Yaneri Perdomo | Competencias" }
     },
     {
       path: '/educacion',
       name: '/educacion',
       component: Training,
-      meta: { title: 'educacion' }
+      meta: { title: 'Yaneri Perdomo | Educación' }
 
     },
     {
       path: '/experiencia-laboral',
       name: '/experiencia-laboral',
       component: WorkExperience,
-      meta: { title: 'Experiencia Laboral' }
+      meta: { title: 'Yaneri Perdomo | Experiencia Laboral' }
     },
     {
       path: '/proyectos',
       name: '/proyectos',
       component: Projects,
       meta: {
-        title: 'Proyectos'
+        title: 'Yaneri Perdomo | Proyectos'
       }
     },
     {
@@ -58,7 +58,7 @@ const router = createRouter({
       name: '/proyectos/:proyecto',
       component: ProjectDetails , 
       meta: {
-        title: 'Detalles del Proyecto'
+        title: 'Yaneri Perdomo | Detalles del Proyecto'
       }
     }
     /* {
