@@ -46,7 +46,7 @@ const array = {
       </section>
       <br />
       <div class="content__button">
-        <a href="../public/Yaneri_Perdomo_Ingeniera_de_Sistemas.PDF" download=""
+        <a href="/Yaneri_Perdomo_Ingeniera_de_Sistemas.pdf" download=""
           ><button class="button__black">DESCARGAR CV</button>
         </a>
       </div>
