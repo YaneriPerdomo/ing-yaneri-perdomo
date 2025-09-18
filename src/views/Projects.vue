@@ -16,7 +16,7 @@ const PROJECTS = [
       "MySQL",
       "AJAX",
     ],
-    img: "public/img/StockYp/welcome.PNG",
+    img: "/img/StockYp/welcome.PNG",
     url: "proyectos/stock-yp",
   },
   /**{
@@ -37,7 +37,7 @@ const PROJECTS = [
       "MVC",
       "AJAX",
     ],
-    img: "public/img/calidad-financiera/admin.png",
+    img: "/img/calidad-financiera/admin.PNG",
     url: "proyectos/calidad-financiera",
   },
   {
