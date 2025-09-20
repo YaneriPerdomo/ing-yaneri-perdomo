@@ -41,6 +41,12 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
     <h1 class="project__title">
       {{ props.projectData.title }}
     </h1>
+    <p class="text-dark-blue" v-if="props.projectData.meta.deploy != null">
+      Para ver el proyecto en vivo, por favor considera usar una VPN. Lamentablemente, la
+      plataforma de despliegue que utilicé no está disponible en Venezuela, por lo que una
+      conexión a través de una VPN te permitirá acceder sin problemas y explorar todas las
+      funcionalidades del proyecto.
+    </p>
     <section class="project__gallery row">
       <div class="project__thumbnails col-2">
         <template v-for="(img, index) in props.projectData.media.thumbnails">
@@ -71,6 +77,14 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
         v-if="props.projectData.meta.video != null"
       >
         <a :href="props.projectData.meta.video" target="_blank"> Video </a>
+      </button>
+      <button
+        class="project__button project__button--deploy"
+        v-if="props.projectData.meta.deploy != null"
+      >
+        <a :href="props.projectData.meta.deploy" target="_blank">
+          Ver Proyecto en Vivo
+        </a>
       </button>
     </section>
     <hr class="project__divider" />

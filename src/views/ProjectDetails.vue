@@ -143,6 +143,7 @@ const TOTAL_INFORMATION_PROJECTS = {
       type_project: "de Sistema Experto",
       GitHub: "https://github.com/YaneriPerdomo/chatbot-UJGH",
       video: "https://www.instagram.com/p/DF1RJETgO1aRGrR_VHoIQc5-E9QCTFJMDXmXYA0/",
+      deploy: "https://proyecto-yp.infinityfree.me/gregorin/",
     },
     media: {
       file: "chat-bot",
