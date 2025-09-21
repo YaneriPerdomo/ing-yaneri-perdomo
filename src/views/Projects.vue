@@ -41,6 +41,20 @@ const PROJECTS = [
     url: "proyectos/calidad-financiera",
   },
   {
+    title: " Asistente Virtual para la Universidad Dr. José Gregorio Hernández ",
+    img: "img/chat-bot/chat-bot02.JPG",
+    technologiesUsed: [
+      "HTML5",
+      "CSS",
+      "JavaScript(ES6)",
+      "Bootstrap",
+      "AJAX",
+      "PHP",
+      "MySQL",
+    ],
+    url: "proyectos/gregorin",
+  },
+  {
     title: " Aplicación web para sesiones de logopedia personalizadas para dislalia ",
     technologiesUsed: [
       "HTML5",
@@ -55,6 +69,13 @@ const PROJECTS = [
     url: "proyectos/sonidos-del-habla",
   },
   {
+    title:
+      " Aplicación web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
+    technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
+    img: "./img/tu-puedes/create-account.JPG",
+    url: "proyectos/tu-puedes",
+  },
+  {
     title: " Aplicación web para niños de primaria con discalculia ",
     technologiesUsed: [
       "HTML5",
@@ -67,27 +88,6 @@ const PROJECTS = [
     ],
     img: "./img/space-n/read.JPG",
     url: "proyectos/espacio-n",
-  },
-  {
-    title:
-      " Aplicación web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
-    technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
-    img: "./img/tu-puedes/create-account.JPG",
-    url: "proyectos/tu-puedes",
-  },
-  {
-    title: " Asistente Virtual para la Universidad Dr. José Gregorio Hernández ",
-    img: "img/chat-bot/chat-bot02.JPG",
-    technologiesUsed: [
-      "HTML5",
-      "CSS",
-      "JavaScript(ES6)",
-      "Bootstrap",
-      "AJAX",
-      "PHP",
-      "MySQL",
-    ],
-    url: "proyectos/gregorin",
   },
 ];
 </script>
@@ -104,6 +104,8 @@ const PROJECTS = [
         que me permitió crear aplicaciones web completas y funcionales.
       </p>
       <Card :data="PROJECTS"></Card>
+      <br />
+      <br />
     </div>
   </Layout>
 </template>

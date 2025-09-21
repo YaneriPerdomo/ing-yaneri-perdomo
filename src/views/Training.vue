@@ -10,20 +10,20 @@ const TRAINING = [
       {
         subtitle: "Educación Superior Universitaria ",
         places: [
-          "Ingeniera en Sistemas, egresada de la Universidad Dr. José Gregorio Hernández, ubicada en Maracaibo, Estado Zulia. Venezuela (2021-2025).",
+          "<b> Ingeniera en Sistemas </b>,de la Universidad Dr. José Gregorio Hernández, ubicada en Maracaibo, Estado Zulia. Venezuela (2021-2025).",
         ],
       },
       {
         subtitle: " Educación Secundaria ",
         places: [
-          "Bachiller en Ciencias, Liceo U.E.N Luis Urdaneta, ubicado en San Francisco, Zulia. Venezuela (2016-2020).",
+          "<b>Bachiller en Ciencias</b>, Liceo U.E.N Luis Urdaneta, ubicado en San Francisco, Zulia. Venezuela (2016-2020).",
           "E.B.N 'Gral. Rafael Urdaneta Fe y Alegría, de Manzanillo' (2015-2016).",
         ],
       },
       {
         subtitle: "Educación Primaria",
         places: [
-          "Titulo de Sexto Grado en la Escuela Nacional “Josefina de Acosta”, ubicada en San Francisco, Estado Zulia (2011-2015).",
+          "<b>Titulo de Sexto Grado</b> en la Escuela Nacional“Josefina de Acosta”, ubicada en San Francisco, Estado Zulia (2011-2015).",
         ],
       },
     ],
@@ -34,21 +34,21 @@ const TRAINING = [
       {
         subtitle: "Contable",
         places: [
-          "Asistente Contable. En la Fundación Renovando Esperanzas, San Francisco, Estado Zulia, 2025 (Presente).",
+          "<b>Asistente Contable.</b> En la Fundación Renovando Esperanzas, San Francisco, Estado Zulia, 2025 (Presente).",
         ],
       },
       {
         subtitle: " Desarollo Web",
         places: [
-          "Programación Python, Nivel Básico. En la Universidad Dr. José Gregorio Hernández, Maracaibo, Estado Zulia, 2023 (16 horas).",
-          "Base de Datos con MySQL. En la Universidad Dr. José Gregorio Hernández, Maracaibo, 2023 (16 horas).",
+          "<b>Programación Python, Nivel Básico.</b> En la Universidad Dr. José Gregorio Hernández, Maracaibo, Estado Zulia, 2023 (16 horas).",
+          "<b>Base de Datos con MySQL.</b>En la Universidad Dr. José Gregorio Hernández, Maracaibo, 2023 (16 horas).",
         ],
       },
       {
         subtitle: "Soporte tecnico a nivel de Hardware y Software",
         places: [
-          "Ensamblaje y Mantenimiento de Computadoras. En la Universidad Dr. José Gregorio Hernández, Maracaibo, 2023 (16 horas).",
-          "Reparación de Hardware y Software de Computadoras. En la Centro Educativo Integral 'Tamanaco', 2019 (10 semanas).",
+          "<b>Ensamblaje y Mantenimiento de Computadoras.</b> En la Universidad Dr. José Gregorio Hernández, Maracaibo, 2023 (16 horas).",
+          "<b>Reparación de Hardware y Software de Computadoras.</b> En la Centro Educativo Integral 'Tamanaco', 2019 (10 semanas).",
         ],
       },
     ],
@@ -60,6 +60,8 @@ const TRAINING = [
     <div class="content m-1">
       <h1 class="content__title m-1">Educación</h1>
       <List :data="TRAINING" type="Multiple list within multiple list"></List>
+      <br />
+      <br />
     </div>
   </Layout>
 </template>

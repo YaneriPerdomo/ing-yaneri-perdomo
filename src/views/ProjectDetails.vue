@@ -322,6 +322,8 @@ let selectImage = (img) => {
   <Layout>
     <div class="content m-1">
       <ShowProject :projectData="projectSelected"></ShowProject>
+      <br />
+      <br />
     </div>
   </Layout>
 </template>

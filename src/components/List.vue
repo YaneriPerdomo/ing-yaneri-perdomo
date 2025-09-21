@@ -3,7 +3,6 @@ const props = defineProps({
   data: Object,
   type: String,
 });
-
 </script>
 <template>
   <template v-if="props.type == 'Multiple List'">
@@ -13,9 +12,7 @@ const props = defineProps({
       </h2>
       <ul class="content__section-list">
         <template v-for="functions in value.functions">
-          <li class="content__section-list-item">
-            {{ functions }}
-          </li>
+          <li class="content__section-list-item" v-html="functions"></li>
         </template>
       </ul>
     </template>
@@ -34,7 +31,7 @@ const props = defineProps({
             <li class="content__section-list-item remove-circles-item-lists">
               <ul class="content__section-list">
                 <template v-for="place in concept.places" :key="index">
-                  <li class="content__section-list-item" >{{ place }}</li>
+                  <li class="content__section-list-item" v-html="place"></li>
                 </template>
               </ul>
             </li>

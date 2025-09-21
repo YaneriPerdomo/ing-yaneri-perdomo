@@ -12,7 +12,7 @@ const array = {
     <div class="content m-1">
       <h1 class="content__title m-1">Yaneri Perdomo Paola Barrios</h1>
       <h2 class="content__subtitle m-1">
-        Ingeniera de sistemas | Desarrollora Full Stack Jr en Software
+        Ingeniera de sistemas | Desarrollora Full Stack en Aplicaciones Web
       </h2>
       <p class="content__description m-0">
         Mi perfil profesional se enfoca en el desarrollo de
@@ -52,9 +52,11 @@ const array = {
       </div>
       <br />
       <small class="content__note">
-        👩‍💻 Este portafolio fue creado con <span>Vue.js 3</span> 💚
+        👩‍💻 Este Portafolio Web fue creado con <span>Vue.js 3</span> 💚
       </small>
       <List :saludar="array"></List>
+      <br />
+      <br />
     </div>
   </Layout>
 </template>

@@ -35,10 +35,12 @@ const WORK_EXPERIENCE = {
 <template>
   <Layout>
     <div class="content m-1">
-      <h1 class="content__title m-1">Experiencia laboral</h1>
+      <h1 class="content__title m-1">Experiencia Laboral</h1>
       <section class="content__section content__section--formal-education">
         <List :data="WORK_EXPERIENCE" type="Multiple List"></List>
       </section>
+      <br />
+      <br />
     </div>
   </Layout>
 </template>

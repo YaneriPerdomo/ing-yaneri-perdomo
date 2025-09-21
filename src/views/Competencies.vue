@@ -67,6 +67,8 @@ const SOFT_SKILLS = {
             </li>
         </ul>
       </section>
+       <br />
+      <br />
     </div>
   </Layout>
 </template>
