@@ -8,6 +8,7 @@ const TOTAL_INFORMATION_PROJECTS = {
       type_project: "Educativo",
       GitHub: "https://github.com/YaneriPerdomo/spaceN",
       video: "https://www.instagram.com/p/DF1M4RAgU6HknISxMbvL8O_9b8pXlRGC005MB00/",
+      deploy: "https://proyecto-yp.infinityfree.me/espacio-n/",
     },
     media: {
       file: "space-n",
