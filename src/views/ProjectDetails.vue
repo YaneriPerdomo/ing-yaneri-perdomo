@@ -65,6 +65,7 @@ const TOTAL_INFORMATION_PROJECTS = {
       type_project: "Administrativo",
       GitHub: "https://github.com/YaneriPerdomo/calidad-financiera",
       video: null,
+      deploy: "https://proyecto-yp.infinityfree.me/calidad-financiera/public/login"
     },
     media: {
       file: "calidad-financiera",

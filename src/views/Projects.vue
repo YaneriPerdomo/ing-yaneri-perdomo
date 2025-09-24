@@ -68,14 +68,7 @@ const PROJECTS = [
     img: "./img/sonidos-del-habla/index.JPG",
     url: "proyectos/sonidos-del-habla",
   },
-  {
-    title:
-      " Aplicación web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
-    technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
-    img: "./img/tu-puedes/create-account.JPG",
-    url: "proyectos/tu-puedes",
-  },
-  {
+    {
     title: " Aplicación web para niños de primaria con discalculia ",
     technologiesUsed: [
       "HTML5",
@@ -89,6 +82,14 @@ const PROJECTS = [
     img: "./img/space-n/read.JPG",
     url: "proyectos/espacio-n",
   },
+  {
+    title:
+      " Aplicación web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
+    technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
+    img: "./img/tu-puedes/create-account.JPG",
+    url: "proyectos/tu-puedes",
+  },
+
 ];
 </script>
 <template>
@@ -117,8 +118,7 @@ const PROJECTS = [
   border: solid 2px white;
   padding: 0.5rem 1rem;
   color: white !important;
-  cursor: pointer;
-}
+ }
 .content__section-list-item {
   list-style: circle;
   color: var(--color-azul-claro);

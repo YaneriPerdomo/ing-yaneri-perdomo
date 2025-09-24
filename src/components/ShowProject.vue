@@ -42,10 +42,11 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
       {{ props.projectData.title }}
     </h1>
     <p class="text-dark-blue" v-if="props.projectData.meta.deploy != null">
-      Para ver el proyecto en vivo, por favor considera usar una VPN. Lamentablemente, la
-      plataforma de despliegue que utilicé no está disponible en Venezuela, por lo que una
-      conexión a través de una VPN te permitirá acceder sin problemas y explorar todas las
-      funcionalidades del proyecto.
+      Para ver el proyecto en vivo, ten en cuenta que la plataforma utilizada tiene una
+      versión gratuita con ciertas limitaciones, como la imposibilidad de descargar en
+      formato PDF. Si encuentras un error 500, podría deberse a una de estas
+      restricciones. Actualmente, se están explorando mejores alternativas de código para
+      solucionar este inconveniente.
     </p>
     <section class="project__gallery row">
       <div class="project__thumbnails col-2">
