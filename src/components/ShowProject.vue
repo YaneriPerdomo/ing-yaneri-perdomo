@@ -44,7 +44,7 @@ const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambi
     <p class="text-dark-blue" v-if="props.projectData.meta.deploy != null">
       Para ver el proyecto en vivo, ten en cuenta que la plataforma utilizada tiene una
       versión gratuita con ciertas limitaciones, como la imposibilidad de descargar en
-      formato PDF. Si encuentras un error 500, podría deberse a una de estas
+      formato PDF. Si encuentras un error 500, se debe a una de estas
       restricciones. Actualmente, se están explorando mejores alternativas de código para
       solucionar este inconveniente.
     </p>
