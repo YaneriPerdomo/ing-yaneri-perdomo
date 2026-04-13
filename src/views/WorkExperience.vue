@@ -5,6 +5,7 @@ const WORK_EXPERIENCE = {
   firstPlace: {
     title: "Desarrolladora Web Independiente (2025 - Presente) ",
     functions: [
+      `Diseño y Desarrollo Sistema Web con un Tutor Inteligente que integra Sensores Táctiles y Respuesta Lumínica para dinamizar el aprendizaje en educación primaria.`,
       " Diseño y Desarrollo Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas ",
       " Desarrollo e Implementación de un Sistema Web para el Control de Ventas e Inventarios para un Negocio de Auto Partes. ",
       " Diseño y Desarrollo de un Sistema Web para la Gestión de Finanzas Personales. ",

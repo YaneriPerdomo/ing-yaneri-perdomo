@@ -12,26 +12,28 @@ const array = {
     <div class="content m-1">
       <h1 class="content__title m-1">Yaneri Perdomo Paola Barrios</h1>
       <h2 class="content__subtitle m-1">
-        Ingeniera de sistemas | Desarrollora Full Stack en Aplicaciones Web
+        Ingeniera de Sistemas & Desarrolladora Full-Stack
       </h2>
       <p class="content__description m-0">
-        Mi perfil profesional se enfoca en el desarrollo de
-        <strong>Aplicaciones Web Completas (Full-Stack)</strong>. Poseo un sólido dominio
-        de tecnologías front-end como <strong>HTML5</strong>, <strong>CSS</strong>,
-        <strong>Bootstrap</strong>, y <strong>JavaScript(ES6)</strong>. En el back-end, mi
-        experiencia se centra en la construcción de sistemas robustos y escalables con
-        <strong>PHP</strong>, el framework <strong>Laravel</strong> y bases de datos
-        relacionales como <strong>MySQL</strong>. Actualmente, estoy fortaleciendo mis
-        habilidades con <strong>Vue.js 3</strong> para diseñar interfaces de usuario
-        dinámicas y modernas. Complemento mis conocimientos con experiencia en
-        <strong>soporte técnico de software y hardware</strong>, lo que me permite ofrecer
-        soluciones integrales.
+          <p class="profile__description">
+              Perfil profesional enfocado en el desarrollo de <strong>Aplicaciones Web Completas (Full-Stack)</strong>. 
+              Poseo un sólido dominio de tecnologías front-end como <strong>HTML5, CSS (BEM), Bootstrap</strong> y 
+              <strong>JavaScript (ES6)</strong>. En el back-end, mi experiencia se centra en la construcción de sistemas 
+              robustos y escalables bajo arquitectura <strong>MVC</strong>, utilizando <strong>PHP</strong>, el framework 
+              <strong>Laravel</strong> y <strong>REST APIs</strong>.
+          </p>
+          <p class="profile__description">
+              Mi enfoque es integral: desde la planificación y el diseño de interfaces dinámicas, actualmente 
+              fortaleciendo habilidades en <strong>Vue.js 3</strong>, hasta el soporte técnico de hardware/software 
+              y el deploy final. Experiencia gestionando proyectos independientes con organización de tareas, 
+              control de versiones en <strong>GitHub</strong> y adaptabilidad a cambios semanales.
+          </p> 
       </p>
       <section class="content__section content__section--contact m-1">
         <h3 class="content__span">Información</h3>
         <ul class="content__section-list content__section-list--icons">
           <li class="content__section-list-item">
-            <i class="bi bi-geo-alt-fill"></i> Zulia, Venezuela
+            <i class="bi bi-geo-alt-fill"></i> Municipio San Francisco (Zulia), Venezuela
           </li>
           <li class="content__section-list-item">
             <i class="bi bi-envelope-fill"></i> perdomopaolabarrios@gmail.com
@@ -40,13 +42,13 @@ const array = {
             <i class="bi bi-calendar-date-fill"></i> 05/11/2003
           </li>
           <li class="content__section-list-item">
-            <i class="bi bi-telephone-fill"></i> 58+ 0412-473-9997
+            <i class="bi bi-telephone-fill"></i> 58+ 412-473-9997
           </li>
         </ul>
       </section>
       <br />
       <div class="content__button">
-        <a href="/Yaneri_Perdomo_Ingeniera_de_Sistemas.pdf" download=""
+        <a href="/CV_Yaneri_Perdomo_Ingeniera_de_Sistemas_2026_.pdf" download=""
           ><button class="button__black">DESCARGAR CV</button>
         </a>
       </div>

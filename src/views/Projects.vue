@@ -5,6 +5,19 @@ import Layout from "@/components/Layout.vue";
 
 import List from "@/components/List.vue";
 const PROJECTS = [
+  {
+    title: "Sistema Web con un Tutor Inteligente que integra Sensores Táctiles y luces LED para niños de primaria",
+    technologiesUsed: [
+      "HTML5",
+      "CSS",
+      "JavaScript(ES6)",
+      "Bootstrap",
+      "Laravel",
+      "MySQL",
+    ],
+    img: "/img/gleeo/caja.jpeg",
+    url: "proyectos/gleeo",
+  },
 {
     title: "Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas",
     technologiesUsed: [

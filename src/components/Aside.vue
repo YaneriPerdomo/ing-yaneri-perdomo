@@ -39,7 +39,9 @@ const URL_PATH_NAME = url.pathname;
             URL_PATH_NAME == '/proyectos/espacio-n' ||
             URL_PATH_NAME == '/proyectos/tu-puedes' ||
             URL_PATH_NAME == '/proyectos/gregorin' ||
-            URL_PATH_NAME == '/proyectos/stock-yp'
+            URL_PATH_NAME == '/proyectos/stock-yp' || 
+            URL_PATH_NAME == '/proyectos/gleeo' || 
+            URL_PATH_NAME == '/proyectos/logi-plan'
               ? 'sidebar-item--selected'
               : ''
           "

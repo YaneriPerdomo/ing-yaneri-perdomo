@@ -5,7 +5,7 @@ import List from "@/components/List.vue";
 
 const SOFT_SKILLS = {
   firstData: {
-    title: "Habilidades blandas",
+    title: "Habilidades Blandas",
     functions: [
       "Escucha Activa.",
       "Empatía",
@@ -23,9 +23,29 @@ const SOFT_SKILLS = {
 
       <section class="content__section content__section--competence">
         <List :data="SOFT_SKILLS" type="Multiple List"></List>
-        <h2 class="content__subtitle"><b>Habilidades tecnicas</b></h2>
+        <h2 class="content__subtitle"><b>Habilidades Tecnicas</b></h2>
         <ul class="content__section-list">
           <li class="content__section-list-item">
+            <b>Diseño Gráfico</b> 
+          </li>
+          <li class="content__section-list-item">
+            <b>Gestión de Inventario IT</b> 
+          </li>
+          <li class="content__section-list-item">
+            <b> Mantenimiento y Ensamblaje de PC</b> 
+          </li>
+          <li class="content__section-list-item">
+            <b>Diagnóstico de Hardware y Software</b> 
+          </li>
+          <li class="content__section-list-item">
+            <b>Sistemas Operativos (Windows)</b> 
+            
+          </li>
+          <li class="content__section-list-item">
+            <b>Desarrollo Web</b>
+            <ul>
+               <li class="content__section-list-item">
+              <li class="content__section-list-item">
             <b>Front-end</b>
             <ul class="content__section-list">
               <li class="content__section-list-item">HTML5</li>
@@ -65,6 +85,10 @@ const SOFT_SKILLS = {
                 </ul>
              </li>
             </li>
+           </li>
+            </ul>
+          </li>
+         
         </ul>
       </section>
        <br />

@@ -2,13 +2,54 @@
 import Layout from "@/components/Layout.vue";
 import ShowProject from "@/components/ShowProject.vue";
 const TOTAL_INFORMATION_PROJECTS = {
+  gleeo:{
+      
+    title: "Sistema Web con un Tutor Inteligente que integra Sensores Táctiles y Respuesta Lumínica para dinamizar el aprendizaje en educación primaria.",
+    meta: {
+      type_project: "Educativo",
+      GitHub: "https://github.com/YaneriPerdomo/gleeo",
+       
+      deploy: "https://gleeo.infinityfreeapp.com/configuracion-del-tutor/contenido-de-esfuerzo",
+    },
+    media: {
+      file: "gleeo",
+      thumbnails: [
+        {
+          src: "caja-beta.jpeg",
+          alt: "Presentacion",
+        },
+        {
+          src: "juego.PNG",
+          alt: "Diagrama de casos de uso",
+        },
+        {
+          src: "progreso.PNG",
+          alt: "Indicador",
+        },
+        {
+          src: "plataforma.PNG",
+          alt: "Panel de control",
+        },
+        {
+          src: "caja.jpeg",
+          alt: "Indicadores",
+        },
+      ],
+      main: "caja.jpeg",
+    },
+     content: {
+  objective: `Desarrollar un sistema web con un tutor inteligente que integra sensores táctiles y respuesta lumínica para dinamizar el aprendizaje en educación primaria.`,
+  scope_: `Gleeo es un Tutor Inteligente (STI) que redefine la interactividad educativa al combinar una plataforma web con una interfaz física basada en sensores táctiles y respuesta lumínica. El sistema permite a los estudiantes seleccionar opciones y navegar por las lecciones mediante el contacto físico directo con sensores, eliminando las barreras de los periféricos convencionales. Esta interacción se complementa con un feedback visual inmediato a través de luces que validan las respuestas en tiempo real. Al unir el software con hardware tangible, el proyecto potencia la motricidad y la atención, ofreciendo una experiencia de aprendizaje inmersiva que facilita el monitoreo del progreso académico y el refuerzo pedagógico personalizado.`,
+},
+  
+  },
   logi_plan: {
     title:
       "Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas",
     meta: {
       type_project: "Logístico",
       
-      deploy: "https://logi-plan.free.nf/",
+      deploy: "https://logi-plan.infinityfreeapp.com",
     },
     media: {
       file: "logi-plan",
@@ -377,6 +418,9 @@ if (URL.pathname.includes("tasa-del-dia")) {
   projectSelected = TOTAL_INFORMATION_PROJECTS.stock_yp;
 } else if (URL.pathname.includes("logi-plan")) {
   projectSelected = TOTAL_INFORMATION_PROJECTS.logi_plan;
+}
+else if (URL.pathname.includes("gleeo")) {
+  projectSelected = TOTAL_INFORMATION_PROJECTS.gleeo;
 }
 
 let selectImage = (img) => {
